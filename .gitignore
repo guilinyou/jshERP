@@ -1,4 +1,14 @@
-jshERP-boot/dist/
-.idea
-jshERP-web/package-lock.json
 conf
+
+## ide
+**/.idea
+*.iml
+jshERP-boot/dist/
+
+## backend
+**/target
+**/logs
+
+## front
+**/*.lock
+jshERP-web/package-lock.json
